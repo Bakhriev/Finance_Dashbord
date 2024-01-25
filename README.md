@@ -9,4 +9,4 @@
 
 <h3 align="left">Methodology BEM</h3>
 
-<h3 align="left"><a href="https://ubiquitous-shortbread-b68558.netlify.app/">Live Preview</a></h3>
+<h3 align="left"><a href="https://aesthetic-kashata-3d9b22.netlify.app/">Live Preview</a></h3>
