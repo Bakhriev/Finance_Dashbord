@@ -1,0 +1,50 @@
+.sidebar {
+	background-color: var(--white);
+	border-radius: 60px 0 0 60px;
+	border-right: 1px solid var(--border);
+	overflow: auto;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		padding: 30px 40px;
+		overflow: auto;
+	}
+
+	&__logo {
+		margin-bottom: 80px;
+	}
+
+	&__nav {
+		margin-bottom: 30px;
+	}
+
+	&__about {
+		margin-top: auto;
+		margin-bottom: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		text-align: center;
+	}
+
+	&__about-img {
+		width: 70px;
+		height: 80px;
+		background-image: url("../img/svg/about.svg");
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__about-text {
+		max-width: 100px;
+		color: var(--text-primary);
+		text-align: center;
+		font-family: Suprema;
+		font-size: 10px;
+		font-weight: 400;
+	}
+}

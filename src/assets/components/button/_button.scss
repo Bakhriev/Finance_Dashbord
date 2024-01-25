@@ -1,0 +1,35 @@
+.btn {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 14px 24px;
+
+	border-radius: 13.617px;
+	background-color: var(--yellow);
+	transition:
+		background-color 0.3s ease-in-out,
+		scale 100ms;
+	user-select: none;
+
+	&:active {
+		scale: 0.97;
+	}
+
+	&:focus-visible {
+		outline: 1px solid var(--yellow);
+		outline-offset: 2px;
+	}
+
+	&__text {
+		color: var(--text-primary);
+		font-family: Quicksand;
+		font-size: 12px;
+		font-weight: 700;
+		width: max-content;
+	}
+
+	&__icon {
+		width: 20px;
+		height: 20px;
+	}
+}
