@@ -1,10 +1,12 @@
 <section class="content">
 	@include('../header/header.html')
 
+	<h2 class="content__title">Weekly sumup</h2>
+	<p class="content__subtitle">
+		Get summary of your weekly online transactions here.
+	</p>
 	<div class="content__inner">
-		<h2 class="content__title">Weekly sumup</h2>
-		<p class="content__subtitle">
-			Get summary of your weekly online transactions here.
-		</p>
+		<div class="content__left">@include('../cards/cards.html')</div>
+		<div class="content__right"></div>
 	</div>
 </section>

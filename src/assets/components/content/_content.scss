@@ -7,12 +7,27 @@
 		padding-top: 60px;
 	}
 
-	&__inner {
-	}
-
 	&__title {
+		margin-bottom: 4px;
+		color: var(--text-primary);
+		font-family: Suprema;
+		font-size: 43px;
+		font-weight: 600;
 	}
 
 	&__subtitle {
+		color: var(--gray);
+		font-family: Suprema;
+		font-size: 16.056px;
+		font-weight: 400;
+	}
+
+	&__inner {
+	}
+
+	&__left {
+	}
+
+	&__right {
 	}
 }

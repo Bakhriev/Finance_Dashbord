@@ -1,0 +1,85 @@
+.debit-card {
+	position: relative;
+	flex-shrink: 0;
+	width: 320px;
+	height: 210px;
+	padding: 20px;
+	border-radius: 26px;
+
+	background: linear-gradient(180deg, #197bbd 0%, #3391d0 100%);
+
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: -35px;
+		right: -45px;
+		width: 254px;
+		height: 166px;
+		background-image: url("../img/svg/clouds.svg");
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__inner {
+		position: relative;
+		z-index: 1;
+		height: 100%;
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+	}
+
+	&__issued {
+		color: var(--white);
+		font-family: Quicksand;
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	&__status {
+		color: rgba(255, 255, 255, 0.39);
+		font-family: Lato;
+		font-size: 8px;
+		font-weight: 700;
+	}
+
+	&__body {
+		display: grid;
+		place-items: center;
+		justify-content: flex-start;
+	}
+
+	&__numbers {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+	}
+
+	&__footer {
+		display: flex;
+		align-items: center;
+		gap: 45px;
+	}
+
+	&__number {
+		color: var(--white);
+		font-family: Quicksand;
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	&__key {
+		margin-bottom: 8px;
+		color: var(--white);
+		font-family: Lato;
+		font-size: 8px;
+		font-weight: 500;
+	}
+
+	&__value {
+		color: var(--white);
+		font-family: Lato;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}
