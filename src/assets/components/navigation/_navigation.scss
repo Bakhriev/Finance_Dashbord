@@ -2,15 +2,20 @@
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-	&__item {
-		position: relative;
 
+	&__btn {
+		position: relative;
+		width: 100%;
 		padding: 5px 10px;
 		display: flex;
 		align-items: center;
 		gap: 18px;
 		cursor: pointer;
 		border-radius: 4px;
+
+		&:focus-visible {
+			outline: 1px solid var(--primary);
+		}
 
 		&::before {
 			content: "";
@@ -25,13 +30,19 @@
 			transition: scale 0.3s ease-in-out;
 			border-radius: inherit;
 		}
+
 		@include hover {
 			&::before {
 				scale: 1 1;
 			}
 		}
+	}
+
+	&__item {
 		&_active {
-			background-color: #f0f7ff;
+			.menu__btn {
+				background-color: #f0f7ff;
+			}
 			.menu__icon {
 				stroke: var(--primary);
 			}

@@ -1,0 +1,25 @@
+.notification {
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transition: background-color 220ms ease;
+
+	&:focus-visible {
+		outline: 1px solid var(--primary);
+	}
+
+	&:active {
+		scale: 0.97;
+	}
+
+	@include hover {
+		background-color: var(--border);
+	}
+
+	&__icon {
+		width: 24px;
+		height: 24px;
+	}
+}
