@@ -1,0 +1,89 @@
+.user-cards {
+	&__title {
+		margin-bottom: 14px;
+		color: var(--text-primary);
+		font-family: Suprema;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	&__inner {
+		display: flex;
+		gap: 20px;
+		justify-content: space-between;
+	}
+
+	&__all {
+	}
+
+	&__limit-wrapper {
+		margin-top: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+	}
+
+	&__limit-text {
+		color: #aeaeae;
+		font-family: Suprema;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	&__limit-amount {
+		color: var(--text-primary, #404040);
+		font-family: Lato;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+
+	&__details {
+		gap: 15px;
+	}
+
+	&__detail {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__amount {
+		color: var(--primary);
+		font-family: Lato;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		&_sm {
+			font-family: Lato;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+		}
+	}
+
+	&__type {
+		color: #aeaeae;
+		font-family: Suprema;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+.text-green {
+	color: var(--green);
+}
+.text-red {
+	color: var(--red);
+}

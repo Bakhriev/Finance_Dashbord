@@ -1,7 +1,30 @@
-<section class="card user-card">
-	<h3 class="user-card__title">Cards</h3>
-	<div class="user-card__inner">
-		<div class="user-card__all">@include('../debit-card/debit-card.html')</div>
-		<div class="user-card__details"></div>
+<section class="card user-cards">
+	<h3 class="user-cards__title">Cards</h3>
+	<div class="user-cards__inner">
+		<div class="user-cards__all">
+			@include('../debit-card/debit-card.html')
+			<div class="user-cards__limit-wrapper">
+				<span class="user-cards__limit-text">Weekly payment limit</span>
+				<span class="user-cards__limit-amount">$350.60 / $4000</span>
+			</div>
+		</div>
+		<div class="user-cards__details">
+			<div class="user-cards__detail">
+				<span class="user-cards__amount">$ 2850.75</span>
+				<span class="user-cards__type">Current Balance</span>
+			</div>
+			<div class="user-cards__detail">
+				<span class="user-cards__amount user-cards__amount_sm text-green"
+					>$ 1500.50</span
+				>
+				<span class="user-cards__type">Income</span>
+			</div>
+			<div class="user-cards__detail">
+				<span class="user-cards__amount user-cards__amount_sm text-red"
+					>$ 350.60</span
+				>
+				<span class="user-cards__type">Outcome</span>
+			</div>
+		</div>
 	</div>
 </section>
