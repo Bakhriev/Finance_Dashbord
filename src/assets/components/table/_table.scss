@@ -1,0 +1,27 @@
+.table {
+	&__head {
+		margin-bottom: 10px;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: 200px 100px 100px 100px;
+		gap: 10px;
+	}
+
+	&__row {
+	}
+
+	&__col {
+		&:last-child {
+			text-align: right;
+		}
+	}
+
+	&__body {
+		.table__row {
+			padding: 12px 0;
+			border-bottom: 0.5px solid #ececec;
+		}
+	}
+}

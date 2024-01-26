@@ -1,0 +1,60 @@
+.transaction {
+	&__title {
+		margin-bottom: 18px;
+		color: var(--text-primary);
+		font-family: Suprema;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+	}
+
+	&__table-title {
+		color: var(--gray);
+		font-family: Suprema;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	&__type {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	&__icon-wrapper {
+		width: 30px;
+		height: 30px;
+		display: grid;
+		place-items: center;
+		border-radius: 6px;
+		background-color: #efefef;
+	}
+
+	&__icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	&__from {
+		color: var(--text-primary, #404040);
+		font-family: Suprema;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	&__text {
+		color: var(--unactive, #c7c7c7);
+		font-family: Suprema;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	&__amount {
+		color: var(--text-primary);
+		text-align: right;
+		font-family: Lato;
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
