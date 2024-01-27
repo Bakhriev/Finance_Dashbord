@@ -9,6 +9,9 @@
 	background-color: gray;
 	display: grid;
 	place-items: center;
+	transition:
+		visibility 150ms,
+		opacity 150ms;
 }
 .lds-roller {
 	display: inline-block;

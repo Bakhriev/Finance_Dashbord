@@ -28,7 +28,8 @@ body {
 	padding: 0 15px;
 }
 .hide {
-	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
 }
 
 // on open some modals
