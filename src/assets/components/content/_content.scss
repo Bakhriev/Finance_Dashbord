@@ -26,7 +26,8 @@
 
 	&__inner {
 		display: grid;
-		grid-template-columns: 600px 700px;
+		grid-template-columns: 600px 600px;
+		gap: 30px;
 	}
 
 	&__left {
@@ -36,5 +37,8 @@
 	}
 
 	&__right {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
 	}
 }

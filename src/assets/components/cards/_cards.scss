@@ -1,5 +1,6 @@
 .user-cards {
 	&__title {
+		padding-left: 20px;
 		margin-bottom: 14px;
 		color: var(--text-primary);
 		font-family: Lato;
@@ -16,7 +17,29 @@
 	&__all {
 	}
 
+	&__swiper {
+		max-width: 350px;
+		width: 100%;
+		.swiper-button-prev,
+		.swiper-button-next {
+			&::after {
+				font-size: 18px;
+				font-weight: 700;
+			}
+		}
+		.swiper-button-prev {
+			left: -8px;
+		}
+		.swiper-button-next {
+			right: -8px;
+		}
+		.swiper-slide {
+			padding: 0 15px;
+		}
+	}
+
 	&__limit-wrapper {
+		padding-left: 20px;
 		margin-top: 10px;
 		display: flex;
 		align-items: center;

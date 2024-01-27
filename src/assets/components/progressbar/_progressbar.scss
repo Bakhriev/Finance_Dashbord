@@ -1,0 +1,38 @@
+.progressbar {
+	position: relative;
+	border-radius: 14px;
+	background: #f1f1f1;
+	width: 100%;
+	height: 10px;
+
+	&__value {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		border-radius: 10px;
+		background: var(--unactive);
+		transition: width 1.1s ease-in-out;
+	}
+}
+
+.progressbar {
+	&_color_orange {
+		.progressbar__value {
+			background: linear-gradient(270deg, #fcae73 0%, #f79042 99.18%);
+		}
+	}
+
+	&_color_green {
+		.progressbar__value {
+			background: linear-gradient(90deg, #209d43 0%, #2bc255 100%);
+		}
+	}
+
+	&_color_blue {
+		.progressbar__value {
+			background: #70a6e8;
+		}
+	}
+}

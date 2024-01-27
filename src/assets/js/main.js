@@ -28,3 +28,19 @@ const goalsSwiper = new Swiper(".goals__swiper", {
 
 	modules: [Navigation],
 })
+
+const cardsSwiper = new Swiper(".user-cards__swiper", {
+	spaceBetween: 30,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+
+	modules: [Navigation],
+})
+
+const progressBars = document.querySelectorAll(".progressbar")
+progressBars.forEach(progressbar => {
+	progressbar.querySelector(".progressbar__value").style.width =
+		progressbar.dataset.value + "%"
+})
