@@ -1,0 +1,52 @@
+.goal-card {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	width: 100%;
+	&__header {
+	}
+
+	&__amount {
+		color: #696969;
+		font-family: Lato;
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	&__date {
+		color: #aeaeae;
+		font-family: Suprema;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	&__footer {
+	}
+
+	&__icon {
+		width: 24px;
+		height: 24px;
+	}
+
+	&__type {
+		color: var(--text-primary);
+		font-family: Suprema;
+		font-size: 20px;
+		font-weight: 400;
+	}
+}
+
+[data-icon="brush"] {
+	background: url("../img/svg/brush.svg") no-repeat center;
+	background-size: 24px 24px;
+}
+
+[data-icon="mountain"] {
+	background: url("../img/svg/mountain.svg") no-repeat center;
+	background-size: 24px 24px;
+}
+
+[data-icon="gamepad"] {
+	background: url("../img/svg/gamepad.svg") no-repeat center;
+	background-size: 24px 24px;
+}

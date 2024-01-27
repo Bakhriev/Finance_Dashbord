@@ -1,0 +1,22 @@
+.btn-add {
+	width: 20px;
+	height: 20px;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	background-color: var(--yellow);
+	transition: background-color 150ms ease;
+	@include hover {
+		background-color: var(--border);
+	}
+	&:active {
+		scale: 0.97;
+	}
+	&:focus-visible {
+		outline: 1px solid var(--primary);
+	}
+	&__icon {
+		width: 10px;
+		height: 10px;
+	}
+}

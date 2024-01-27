@@ -1,3 +1,7 @@
+import Swiper from "swiper"
+import { Navigation } from "swiper/modules"
+import "swiper/css"
+import "swiper/css/navigation"
 import { removeClassFromElements } from "./functions/removeActiveState"
 
 const navigation = document.querySelector(".menu")
@@ -13,4 +17,14 @@ navigation.addEventListener("click", e => {
 			clickedMenuItem.classList.add("menu__item_active")
 		}
 	}
+})
+
+const goalsSwiper = new Swiper(".goals__swiper", {
+	slidesPerView: 3,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+
+	modules: [Navigation],
 })

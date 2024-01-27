@@ -1,0 +1,48 @@
+.goals {
+	padding-left: 15px;
+
+	&__header {
+		padding-left: 15px;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+	}
+
+	&__title {
+		color: var(--text-primary);
+		font-family: Suprema;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	&__swiper {
+		.swiper-wrapper {
+			padding: 20px 0;
+		}
+		.swiper-slide {
+			padding: 15px;
+		}
+		.swiper-button-prev,
+		.swiper-button-next {
+			transition:
+				opacity 220ms linear,
+				visibility 220ms linear;
+			&::after {
+				font-size: 22px;
+			}
+		}
+		.swiper-button-prev {
+			left: -7px;
+		}
+		.swiper-button-next {
+			right: -7px;
+		}
+		.swiper-button-disabled {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+
+	&__cards {
+	}
+}
