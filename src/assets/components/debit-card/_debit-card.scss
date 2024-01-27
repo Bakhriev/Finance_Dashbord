@@ -31,14 +31,14 @@
 
 	&__issued {
 		color: var(--white);
-		font-family: Quicksand;
+
 		font-size: 16px;
 		font-weight: 700;
 	}
 
 	&__status {
 		color: rgba(255, 255, 255, 0.39);
-		font-family: Lato;
+
 		font-size: 8px;
 		font-weight: 700;
 	}
@@ -63,22 +63,23 @@
 
 	&__number {
 		color: var(--white);
-		font-family: Quicksand;
+
 		font-size: 22px;
 		font-weight: 500;
+		width: 55px;
 	}
 
 	&__key {
 		margin-bottom: 8px;
 		color: var(--white);
-		font-family: Lato;
+
 		font-size: 8px;
 		font-weight: 500;
 	}
 
 	&__value {
 		color: var(--white);
-		font-family: Lato;
+
 		font-size: 14px;
 		font-weight: 500;
 	}

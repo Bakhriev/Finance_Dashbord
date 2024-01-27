@@ -3,7 +3,7 @@
 		padding-left: 20px;
 		margin-bottom: 14px;
 		color: var(--text-primary);
-		font-family: Lato;
+
 		font-size: 20px;
 		font-weight: 600;
 	}
@@ -49,7 +49,7 @@
 
 	&__limit-text {
 		color: #aeaeae;
-		font-family: Lato;
+
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
@@ -58,7 +58,7 @@
 
 	&__limit-amount {
 		color: var(--text-primary, #404040);
-		font-family: Lato;
+
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 600;
@@ -80,13 +80,13 @@
 
 	&__amount {
 		color: var(--primary);
-		font-family: Lato;
+
 		font-size: 30px;
 		font-style: normal;
 		font-weight: 700;
 		line-height: normal;
 		&_sm {
-			font-family: Lato;
+	
 			font-size: 18px;
 			font-style: normal;
 			font-weight: 600;
@@ -96,7 +96,7 @@
 
 	&__type {
 		color: #aeaeae;
-		font-family: Lato;
+
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;

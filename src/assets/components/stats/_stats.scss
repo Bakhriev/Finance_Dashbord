@@ -3,7 +3,6 @@
 	&__title {
 		margin-bottom: 20px;
 		color: var(--text-primary);
-		font-family: Lato;
 		font-size: 20.112px;
 		font-weight: 600;
 	}
@@ -71,14 +70,12 @@
 	&__progress-value {
 		margin-top: 8px;
 		color: var(--gray);
-		font-family: Lato;
 		font-size: 14px;
 		font-weight: 400;
 	}
 
 	&__percent {
 		color: #696969;
-		font-family: Lato;
 		font-size: 24px;
 		font-weight: 600;
 	}
