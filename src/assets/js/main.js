@@ -44,3 +44,5 @@ progressBars.forEach(progressbar => {
 	progressbar.querySelector(".progressbar__value").style.width =
 		progressbar.dataset.value + "%"
 })
+
+document.querySelector(".preloader").classList.add("hide")
